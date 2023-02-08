@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Day4</title>
+  </head>
+
+  <body>
+    <form>
+      <h1>Create An Account</h1>
+      <div>
+        <label for="FirstName">First name</label>
+        <input
+          type="text"
+          id="firstname"
+          name="fistname"
+          size="20"
+          placeholder="First name"
+          required
+        />
+      </div>
+      <div>
+        <label for="LastName">Last name</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          minlength="4"
+          maxlength="8"
+          size="20"
+          placeholder="Last name"
+          required
+        />
+      </div>
+      <div>
+        <label for="Email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          size="20"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div>
+        <label for="Username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          size="20"
+          placeholder="Username"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minlength="10"
+          size="20"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="Birthdate">Birth date</label>
+        <input type="date" id="Birthdate" name="Birthdate" size="20" required />
+      </div>
+      <div>
+        <label for="happy">How happy are you?</label>
+        <input
+          type="range"
+          id="happy"
+          name="happy"
+          size="20"
+          list="markers"
+          required
+        />
+        <datalist id="markers">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+          <option value="110"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="favcolor">What is your fav.color?</label>
+        <input type="color" id="favcolor" name="favcolor" size="20" required />
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
