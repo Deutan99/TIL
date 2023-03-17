@@ -12,4 +12,3 @@ class Wizard {
 const x = new Wizard(545, 210, 10);
 console.log(x.health, x.mana, x.armor);
 x.attack();
-  
