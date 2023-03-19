@@ -13,7 +13,7 @@
 // 입력 : 2
 // 출력 : 2
 
-var n = prompt('숫자를 입력해주세요');
+let n = prompt('숫자를 입력해주세요');
 
 if( n % 3 == 0 ) {
     console.log("짝");
