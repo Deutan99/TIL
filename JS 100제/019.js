@@ -10,3 +10,15 @@ console.log(Math.pow(a, b));
 const n = prompt('수를 입력하세요.').split(' ');
 
 console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
+
+//자바스크립트 Array Destructing, Object Destructuring
+//Array Destructuring
+var foo = ['one', 'two', 'three']
+var [one, two, three] = foo;
+console.log(one) //one
+
+//Object Destructuring
+var o = {p: 42, q: true};
+var {p, q} = o;
+console.log(p);
+console.log(q);
