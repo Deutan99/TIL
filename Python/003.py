@@ -1,2 +1,2 @@
 l = [100, 200, 300]
-print(type(l))
+print(type(l)) #<class 'list'>
